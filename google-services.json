@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "691271392472",
+    "project_id": "nammayantrashare-8a4e0",
+    "storage_bucket": "nammayantrashare-8a4e0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691271392472:android:1b230b7f9669aa5cf20bad",
+        "android_client_info": {
+          "package_name": "com.example.nammayantrashare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691271392472-vofhgj7q9l799alphddrua02nts7hu72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMrvz0QcD-LN6Nwj8c-cD7Ic0PkDR1nrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691271392472-vofhgj7q9l799alphddrua02nts7hu72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

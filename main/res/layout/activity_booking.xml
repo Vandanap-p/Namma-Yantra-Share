@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvMachineName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_dark"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etFarmerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Farmer Name"/>
+
+        <EditText
+            android:id="@+id/etFarmerPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Farmer Phone"
+            android:inputType="phone"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etFarmerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Farmer Address"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etBookingDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Booking Date"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start Time (HH:mm)"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="End Time (HH:mm)"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnPredictPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Predict Price"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_green_button"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Amount: ₹0"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_dark"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Booking Request"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_green_button"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

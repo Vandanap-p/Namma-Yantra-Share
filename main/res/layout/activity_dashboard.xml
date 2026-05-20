@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tractor"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NammaYantraShare\n       Dashboard"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_dark"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnAddMachine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Machine"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_green_button"/>
+
+        <Button
+            android:id="@+id/btnViewMachines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Machines"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_green_button"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnRequests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Booking Requests"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_green_button"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnMyBookings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Bookings"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_green_button"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin Dashboard"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_green_button"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_green_button"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

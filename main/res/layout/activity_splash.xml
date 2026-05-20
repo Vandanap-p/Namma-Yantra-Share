@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#BBF2BD">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/tractor"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NammaYantraShare"
+        android:textColor="@color/green_dark"
+        android:textSize="34sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empowering Farmers, Sharing Machines"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="@color/green_dark"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

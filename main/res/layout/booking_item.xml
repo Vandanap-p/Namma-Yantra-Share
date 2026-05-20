@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="@color/green_light"
+    android:elevation="5dp">
+
+    <TextView
+        android:id="@+id/tvMachine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/green_dark"/>
+
+    <TextView
+        android:id="@+id/tvFarmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/green_dark"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_green_button"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnReject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reject"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_green_button"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnOwnerConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Owner Confirm"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_green_button"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnWorkDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work Done"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_green_button"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
